@@ -44,11 +44,6 @@ jobs:
         run: |
           cargo build --target=i686-unknown-linux-gnu --release
 
-      - name: Debug
-        run: |
-          sudo npm install tree-node-cli -g
-          treee target
-
       - name: Prepare release files
         run: |
           7z a -tzip ${APP_NAME}-linux-x86-${{ steps.branch_name.outputs.SOURCE_NAME }}.zip -r ./target/i686-unknown-linux-gnu/release/${APP_NAME}
