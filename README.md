@@ -1,5 +1,9 @@
 # hello-rust
 
+![MacOS-CI](https://github.com/liudonghua123/hello-rust/workflows/MacOS-CI/badge.svg)
+![Linux-CI](https://github.com/liudonghua123/hello-rust/workflows/Linux-CI/badge.svg)
+![Windows-CI](https://github.com/liudonghua123/hello-rust/workflows/Windows-CI/badge.svg)
+
 A simple rust project with fully functional github ci/cd.
 
 ## Getting Started
